@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Amarok</title>
+<link>http://www.amarok.pw/</link>
+<description>(Lack of) Articles</description>
+<item>
+<title>Nothing</title>
+<link>http://www.amarok.pw/404.php</link>
+<guid>http://www.amarok.pw/404.php</guid>
+<pubDate>Monday</pubDate>
+<description>Hilarious</description>
+</item>
+</channel>
+</rss>
