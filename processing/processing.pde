@@ -4,7 +4,7 @@
 //Initialize program
 void setup() {
   //Resolution, etc
-  size(300,150);
+  fullScreen();
   rectMode(CENTER);
   noStroke();
 }
