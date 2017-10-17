@@ -4,7 +4,7 @@
 //Initialize program
 void setup() {
   //Resolution, etc
-  size(500,500);
+  size(1600,900);
   rectMode(CENTER);
   noStroke();
 }
