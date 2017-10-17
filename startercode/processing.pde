@@ -3,7 +3,7 @@
 
 //Initialize program
 void setup() {
-  //4:3 Aspect res 1280x960
+  //Resolution, etc
   size(300,150);
   rectMode(CENTER);
   noStroke();
