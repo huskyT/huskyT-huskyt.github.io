@@ -153,8 +153,10 @@ width: 100%;
 height: 100%;
 }
 canvas#jsbg {
-width: 100%;
-height: 100%;
+min-width: 100%;
+min-height: 100%;
 z-index: -5;
 position: fixed;
+margin: 0px;
+spacing: 0px;
 }
