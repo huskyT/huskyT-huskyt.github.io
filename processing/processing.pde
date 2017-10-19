@@ -1,5 +1,7 @@
+/* @pjs preload="bg.jpg"; */
 int p1;
 int p2;
+PImage bg;
 String lWin = "None";
 boolean winr = false;
 String Winner;
@@ -19,11 +21,12 @@ void setup() {
   textAlign(CENTER);
   textMode(CENTER);
   textSize(28);
+  bg = loadImage("bg.jpg");
 }
 
 void draw() {
   RGBCycle();
-  background(147,212,144);
+  background(bg);
   c1.exist(400, 300, curVal, curSuit);
   colorMode(HSB);
   fill(200, 150, 255);
