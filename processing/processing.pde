@@ -3,7 +3,6 @@ int p2;
 String lWin = "None";
 boolean winr = false;
 String Winner;
-PImage bg;
 int winAt = 100;
 card c1 = new card();
 boolean player1 = true;
@@ -17,7 +16,6 @@ String[] values = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "
 
 void setup() {
   size(800,600);
-  bg = loadImage("bg.jpg");
   textAlign(CENTER);
   textMode(CENTER);
   textSize(28);
@@ -25,7 +23,7 @@ void setup() {
 
 void draw() {
   RGBCycle();
-  background(bg);
+  background(147,212,144);
   c1.exist(400, 300, curVal, curSuit);
   colorMode(HSB);
   fill(200, 150, 255);
