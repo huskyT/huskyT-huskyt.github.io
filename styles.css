@@ -152,3 +152,6 @@ canvas#coolthing {
 max-width: 800px;
 width:100%
 }
+div#game {
+text-align: center;
+}
