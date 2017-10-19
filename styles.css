@@ -149,6 +149,6 @@ width: 20px;
 align: left;
 }
 canvas#coolthing {
-width: 800px;
-height: 600px;
+max-width: 800px;
+width:100%
 }
