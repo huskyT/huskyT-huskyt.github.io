@@ -1,4 +1,4 @@
-/* @pjs preload="bg.jpg" */
+/* @pjs preload="/processing/bg.jpg" */
 int p1;
 int p2;
 PImage bg;
