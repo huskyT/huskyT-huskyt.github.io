@@ -1,4 +1,4 @@
-/* @pjs preload="/processing/bg.jpg" */
+/* @pjs preload="bg.jpg" */
 int p1;
 int p2;
 PImage bg;
@@ -21,7 +21,7 @@ void setup() {
   textAlign(CENTER);
   textMode(CENTER);
   textSize(28);
-  bg = loadImage("/processing/bg.jpg");
+  bg = loadImage("bg.jpg");
   bg.loadPixels();
   for (int i = 0; i < bg.pixels.length; i++) {
     bg.pixels[i] = color(0, 90, 102); 
