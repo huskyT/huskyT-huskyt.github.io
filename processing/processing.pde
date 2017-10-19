@@ -22,6 +22,11 @@ void setup() {
   textMode(CENTER);
   textSize(28);
   bg = loadImage("bg.jpg");
+  bg.loadPixels();
+  for (int i = 0; i < bg.pixels.length; i++) {
+    bg.pixels[i] = color(0, 90, 102); 
+  }
+  bg.updatePixels();
 }
 
 void draw() {
