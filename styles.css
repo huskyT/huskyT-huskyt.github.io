@@ -152,11 +152,3 @@ canvas#coolthing {
 width: 100%;
 height: 100%;
 }
-canvas#jsbg {
-min-width: 100%;
-min-height: 100%;
-z-index: -5;
-position: fixed;
-margin: 0px;
-spacing: 0px;
-}
