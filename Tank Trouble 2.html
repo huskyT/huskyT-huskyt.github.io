@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://tanktrouble-2.bitballoon.com/ -->
+<html manifest="offline.appcache"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Tank Trouble 2</title>
+	
+	<!-- Standardised web app manifest -->
+	<link rel="manifest" href="http://tanktrouble-2.bitballoon.com/appmanifest.json">
+	
+	<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" sizes="256x256" href="http://tanktrouble-2.bitballoon.com/icon-256.png">
+	<meta name="HandheldFriendly" content="true">
+	
+	<!-- Chrome for Android web app tags -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="shortcut icon" sizes="256x256" href="http://tanktrouble-2.bitballoon.com/icon-256.png">
+
+    <!-- All margins and padding must be zero for the canvas to fill the screen. -->
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		html, body {
+			background: #000;
+			color: #fff;
+			overflow: hidden;
+			touch-action: none;
+			-ms-touch-action: none;
+		}
+		canvas {
+			touch-action-delay: none;
+			touch-action: none;
+			-ms-touch-action: none;
+		}
+    </style>
+	
+
+<script src="./Tank Trouble 2_files/cb=gapi.loaded_0" async=""></script><script src="./Tank Trouble 2_files/offlineClient.js.download"></script><meta name="google-signin-clientid" content=""><meta name="google-signin-cookiepolicy" content="single_host_origin"><meta name="google-signin-callback" content="googlePlaySigninCallback"><meta name="google-signin-scope" content="https://www.googleapis.com/auth/games"><script type="text/javascript" async="" src="./Tank Trouble 2_files/client.js.download" gapi_processed="true"></script><link href="./Tank Trouble 2_files/css" rel="stylesheet" type="text/css"><link href="./Tank Trouble 2_files/lato.css" rel="stylesheet" type="text/css"><link href="./Tank Trouble 2_files/css" rel="stylesheet" type="text/css"><link href="./Tank Trouble 2_files/css" rel="stylesheet" type="text/css"><link href="./Tank Trouble 2_files/css" rel="stylesheet" type="text/css"></head> 
+ 
+<body style="cursor: auto;"> 
+	<div id="fb-root"></div>
+	
+	<script async="" src="./Tank Trouble 2_files/analytics.js.download"></script><script>
+	// Issue a warning if trying to preview an exported project on disk.
+	(function(){
+		// Check for running exported on file protocol
+		if (window.location.protocol.substr(0, 4) === "file")
+		{
+			alert("Exported games won't work until you upload them. (When running on the file:/// protocol, browsers block many features from working for security reasons.)");
+		}
+	})();
+	</script>
+	
+	<!-- The canvas must be inside a div called c2canvasdiv -->
+	<div id="c2canvasdiv" style="width: 1079px; height: 720px; margin-left: 260px; margin-top: 0px;">
+	
+		<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
+		ID the runtime looks for in the jQuery events above (ready() and cr_sizeCanvas()). -->
+		<canvas id="c2canvas" width="1079" height="720" style="width: 1079px; height: 720px;">
+			<!-- This text is displayed if the visitor's browser does not support HTML5.
+			You can change it, but it is a good idea to link to a description of a browser
+			and provide some links to download some popular HTML5-compatible browsers. -->
+			<h1>Your browser does not appear to support HTML5.  Try upgrading your browser to the latest version.  <a href="http://www.whatbrowser.org/">What is a browser?</a>
+			<br><br><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Microsoft Internet Explorer</a><br>
+			<a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a><br>
+			<a href="http://www.google.com/chrome/">Google Chrome</a><br>
+			<a href="http://www.apple.com/safari/download/">Apple Safari</a></h1>
+		</canvas>
+		
+	<input type="range" max="100" min="0" step="0.01" id="" title="" style="position: absolute; top: 698px; left: 290px; width: 224px; height: 21px; display: block;"><input type="text" id="" autocomplete="off" placeholder="" title="You are in offline mode" disabled="" spellcheck="false" style="position: absolute; top: 1px; left: 224px; width: 38px; height: 38px; font-size: 0.993782em; opacity: 0; display: none;"><input type="text" id="" autocomplete="off" placeholder="" title="" spellcheck="false" style="display: none;"><input type="button" id="" value="Back" title="" style="display: none;"><input type="button" id="" value="Fire: M" title="" style="display: none;"><input type="button" id="" value="Left: ←" title="" style="display: none;"><input type="button" id="" value="Right: →" title="" style="display: none;"><input type="button" id="" value="Up: ↑" title="" style="display: none;"><input type="button" id="" value="Down: ↓" title="" style="display: none;"><select id="" title="The mazes that will apear while in game." size="2" style="display: none;"></select><input type="button" id="" value="Download" title="Download the maze as a json file." style="display: none;"><input type="button" id="" value="Reset" title="Reset the maze." style="display: none;"><input type="button" id="" value="Redo" title="Redo" disabled="" style="display: none;"><input type="button" id="" value="To Account" title="" style="display: none;"><input type="text" id="" autocomplete="off" placeholder="Name" title="Name and add your creation to the list!" spellcheck="false" style="display: none;"><input type="button" id="" value="Add to list" title="" style="display: none;"><input type="button" id="" value="From Account" title="" style="display: none;"><input type="button" id="" value="Undo" title="Undo" disabled="" style="display: none;"><input type="text" id="" autocomplete="off" placeholder="Paste json here" title="" spellcheck="false" style="background-color: rgb(255, 255, 255); font-size: 12pt; font-family: Lato; color: rgb(0, 0, 0); padding: 0px; text-align: left; display: none;"><input type="file" accept=".json" multiple="" id="" style="display: none;"><input type="button" id="" value="To File" title="" style="display: none;"><label title="" style="font-family: sans-serif; display: none; color: black;"><input type="checkbox" id="">Use these mazes</label><label title="" style="font-family: sans-serif; display: none; color: black;"><input type="checkbox" id="">Use the default mazes</label><input type="button" id="" value="Edit in-game maze" title="" style="display: none;"><select id="" title="" style="display: none;"><option>Item 1</option><option>Item 2</option><option>Item 3</option></select><input type="text" id="" autocomplete="off" placeholder="Name of Maze" title="" spellcheck="false" style="background-color: rgb(255, 255, 255); font-size: 12pt; font-family: Lato; color: rgb(0, 0, 0); padding: 0px; text-align: left; display: none;"><input type="button" id="" value="Cancel" title="" style="display: none;"><input type="button" id="" value="OK" title="" style="display: none;"><input type="button" id="" value="Yes" title="" style="display: none;"><input type="button" id="" value="No" title="" style="display: none;"></div>
+	
+	<!-- Pages load faster with scripts at the bottom -->
+	
+	<!-- Construct 2 exported games require jQuery. -->
+	<script src="./Tank Trouble 2_files/jquery-2.1.1.min.js.download"></script>
+
+	<script src="./Tank Trouble 2_files/ga_init.js.download"></script>
+	<script src="./Tank Trouble 2_files/c2mp-net.js.download"></script>
+	<script src="./Tank Trouble 2_files/c2mp-peer.js.download"></script>
+	<script src="./Tank Trouble 2_files/c2mp.js.download"></script>
+	<script src="./Tank Trouble 2_files/waker.js.download"></script>
+	<script src="./Tank Trouble 2_files/firebase.js.download"></script>
+	<script src="./Tank Trouble 2_files/cordova.oauth2.js.download"></script>
+	<script src="./Tank Trouble 2_files/pathfind.js.download"></script>
+
+	
+    <!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
+    This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
+	<script src="./Tank Trouble 2_files/c2runtime.js.download"></script>
+
+    <script>
+		// Start the Construct 2 project running on window load.
+		jQuery(document).ready(function ()
+		{			
+			// Create new runtime using the c2canvas
+			cr_createRuntime("c2canvas");
+		});
+		
+		// Pause and resume on page becoming visible/invisible
+		function onVisibilityChanged() {
+			if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden)
+				cr_setSuspended(true);
+			else
+				cr_setSuspended(false);
+		};
+		
+		document.addEventListener("visibilitychange", onVisibilityChanged, false);
+		document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
+		document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
+		document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
+		
+		function OnRegisterSWError(e)
+		{
+			console.warn("Failed to register service worker: ", e);
+		};
+		
+		// Runtime calls this global method when ready to start caching (i.e. after startup).
+		// This registers the service worker which caches resources for offline support.
+		window.C2_RegisterSW = function C2_RegisterSW()
+		{
+			if (!navigator.serviceWorker)
+				return;		// no SW support, ignore call
+			
+			try {
+				navigator.serviceWorker.register("sw.js", { scope: "./" })
+				.then(function (reg)
+				{
+					console.log("Registered service worker on " + reg.scope);
+				})
+				.catch(OnRegisterSWError);
+			}
+			catch (e)
+			{
+				OnRegisterSWError(e);
+			}
+		};
+    </script>
+ 
+ <iframe name="oauth2relay549694887" id="oauth2relay549694887" src="./Tank Trouble 2_files/postmessageRelay.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe></body></html>
