@@ -2,7 +2,7 @@
 nav {
 }
 section div{
-background-image: url(images/side.png);
+background-image: url("images/extras_bg2.jpg");
 padding: 10px 16px;
 overflow: auto;
 z-index: 1;
@@ -112,7 +112,7 @@ body {
 font-family: "Trebuchet MS";
 color: white;
 background-image: url(images/side.png);
-background-size:100%;
+background-size:100% 100%;
 }
 img#ad {
 opacity: 1;
