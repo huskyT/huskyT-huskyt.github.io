@@ -2,7 +2,7 @@
 nav {
 }
 section div{
-background-image: url("images/greenfootbg.png");
+background-image: url("images/greenfootBG.png");
 padding: 10px 16px;
 overflow: auto;
 z-index: 1;
