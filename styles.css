@@ -39,7 +39,7 @@ color: black;
 div#topbanner {
 color:white;
 text-align:left;
-background-image: url(images/scumbanner.png);
+background-color: darkturquoise;
 background-size: auto 100%;
 padding: 1px 16px;
 border-radius: 5px 5px 0px 0px;
