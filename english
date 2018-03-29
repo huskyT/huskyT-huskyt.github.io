@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+<title>Suspicious Tab</title>
+<script src="/js/processing.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  
+<div id="main">
+
+<header>
+<div id="topbanner">
+<h1>Amarok</h1>
+
+</div>
+
+
+</header>
+
+
+<nav>
+<ul id="menu" style="border-radius:0px 0px 5px 5px">
+<li><a href="http://www.amarok.pw/" id="in">Home</a></li>
+<li><a href="http://www.amarok.pw/references.html" id="in">References</a></li>
+<li class="dropdown">
+<a href="#" class="dropbtn active">Talks</a>
+<div class="dropdown-content">
+<a href="http://www.amarok.pw/talk1.html">Talk 1</a>
+<a href="http://www.amarok.pw/talk2.html">Talk 2</a>
+<a href="http://www.amarok.pw/talk3.html">Talk 3</a>
+</div>
+</li>
+<li><a href="http://www.google.tk/" id="in">Normals</a></li>
+</ul>
+</nav>
+
+<hr>
+
+<!--
+<aside>
+<section>
+<div id="sidebar">
+<a href="http://www.google.com/" id="not">Real Link</a>
+</div>
+<br>
+<div id="sidebar">
+<a href="http://127.0.0.1" id="not">RSS Feed</a>
+</div>
+<br>
+<img id="ad" src="./BHHS Programming Club_files/wide-skyscraper.jpg" alt="Image has been removed due to a DMCA complaint. style=" width:160px;height:600px;"="">
+</section>
+</aside>
+-->
+<section>
+<div id="game">
+<p><a href="https://drive.google.com/drive/folders/1E_9rQOf5vTFvGxh_ljmeOXa5sE9oNP-D?usp=sharing">Google Drive Link</a></p>
+<p>Use above Google Drive link for .pdf or .mobi copy of the book.</p>
+<p>Ebook files (.mobi, .epub, etc) can be read using an ebook reader. Calibre (for Windows, Mac, Linux) works well but it is very large, so you may want to consider an alternative which is more lightweight.</p>
+<p>Ebook files often read better than pdf files, especially since the text resizes dynamically to fit the screen.</p>
+<p>Download for other file types can be found <a href="http://gen.lib.rus.ec/foreignfiction/index.php?s=in%20the%20skin%20of%20a%20lion&amp;f_lang=0&amp;f_columns=0&amp;f_ext=0&amp;f_group=1">here</a></p>
+</div>
+  
+</section>
+
+<br>
+<footer>
+<a href="www.google.com"><img src="images/icons/google.png" align="left"></a>
+<a href="www.google.com"><img src="images/icons/facebook.png" align="left"></a>
+<a href="www.google.com"><img src="images/icons/reddit.png" align="left"></a>
+<a href="www.google.com"><img src="images/icons/youtube.png" align="left"></a>
+&gt;&gt;RockBottom&lt;&lt; 
+Created by Taesung Jung, 2016
+</footer>
+</div>
+
+</html>
