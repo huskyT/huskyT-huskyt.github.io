@@ -1330,8 +1330,6 @@ class Player extends GameObject {
     //Special Timer
     atimer = 600;
     aleft = 0;
-
-    indicator.resize(6,6);
   }
 
   //Render the thing whoo
@@ -1468,5 +1466,6 @@ void loadSprites() {
   help2 = loadImage("aseex/help2.png");
   help3 = loadImage("aseex/help3.png");
   
-  indicator = loadImage("aseex/redball.png");
+  indicator = loadImage("aseex/blueball.png");
+  indicator.resize(6,6);
 }
