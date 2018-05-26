@@ -1349,6 +1349,7 @@ class Player extends GameObject {
     noTint();
     
     if (shiftk){
+      indicator.resize(6,6);
       image(indicator, pos.x, pos.y);
     }
   }
@@ -1467,5 +1468,4 @@ void loadSprites() {
   help3 = loadImage("aseex/help3.png");
   
   indicator = loadImage("aseex/blueball.png");
-  indicator.resize(6,6);
 }
