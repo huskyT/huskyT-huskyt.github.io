@@ -35,7 +35,7 @@ int botY = 463;
 
 void setup() {
   rectMode(CENTER);
-  size(640,480,OPENGL); //Use FX2D maybe
+  size(640,480,P2D); //Use FX2D maybe
   
   imageMode(CENTER);
   
