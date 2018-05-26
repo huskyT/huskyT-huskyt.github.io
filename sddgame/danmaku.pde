@@ -35,7 +35,7 @@ int botY = 463;
 
 void setup() {
   rectMode(CENTER);
-  size(640,480,P2D); //Use FX2D maybe
+  size(640,480,OPENGL); //Use FX2D maybe
   
   imageMode(CENTER);
   
@@ -44,7 +44,6 @@ void setup() {
   bg = loadImage("aseex/background.png");
   
   loadSprites();
-  indicator.resize(6,6);
   
   menuSwitch(1); //Start off the menu screen on the inital page.
   
@@ -1331,6 +1330,8 @@ class Player extends GameObject {
     //Special Timer
     atimer = 600;
     aleft = 0;
+
+    indicator.resize(6,6);
   }
 
   //Render the thing whoo
