@@ -44,6 +44,7 @@ void setup() {
   bg = loadImage("aseex/background.png");
   
   loadSprites();
+  indicator.resize(6,6);
   
   menuSwitch(1); //Start off the menu screen on the inital page.
   
@@ -55,7 +56,6 @@ void setup() {
   currentScreen = "menu";
   String[] temphs = loadStrings("hs/hs.txt");
   highscore = int(temphs[0]);
-  println(highscore);
 }
 
 void draw() {
@@ -937,7 +937,6 @@ void playScreen() {
   
   //Test if high score has been beaten when the player dies
   if (playerisdead) {
-    println(playScore + " vs the " + highscore);
     if (finalScore > highscore) {
       highscore = finalScore;
       String[] temphs = split(str(highscore), ' ');
@@ -1243,7 +1242,6 @@ class MenuButton{
   }
   
   void action() { //When a click is detected this is what the booton does.
-    print("test");
     if (isHover() == true) { //What to do when the button is clicked:
       if (function == "resetGame") {
         //Switch to gamescreen and reset it
@@ -1470,5 +1468,4 @@ void loadSprites() {
   help3 = loadImage("aseex/help3.png");
   
   indicator = loadImage("aseex/redball.png");
-  indicator.resize(6,6);
 }
