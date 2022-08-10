@@ -1,2 +1,2 @@
-# huskyT-huskyt.github.io
+# website
 Not unlike Shakespeare's Othello.
